@@ -58,6 +58,7 @@ This project represents the user-side of a dynamic chess game application, devel
 ![LogIn](./src/assets/chess-login.gif)
 ![Add](./src/assets/chess-add-friend.gif)
 ![My Game](./src/assets/chess-my-games.gif)
+![chess-demo](https://github.com/user-attachments/assets/e3606e94-e950-4d4d-88f9-ff1020c05ff4)
 ![Logout](./src/assets/chess-logout.gif)
 
 
