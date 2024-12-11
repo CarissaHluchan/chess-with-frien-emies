@@ -30,11 +30,7 @@ This project represents the user-side of a dynamic chess game application, devel
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
 
-**1. Click the Title to run the app.**
-- This App is designed for cell phones
-- Open Chrome dev tools to view the app in a cell phone view
-
-**2. _(optional) Fork this project to your own Github account._**
+**1. _(optional) Fork this project to your own Github account._**
 > [!WARNING]
 > **[Node.js](https://nodejs.org/en), [npm](https://www.npmjs.com/) are required to run this app.**<br>
 > _Please ensure you have both installed on your machine before proceeding._
@@ -43,9 +39,12 @@ This project represents the user-side of a dynamic chess game application, devel
   - Use the `npm install` command to install the project dependencies.
   - Use the `npm install @react-icons/all-files --save` command to install `React Icons`
   - Use the `npm start` command to run webpack.
+  - To run this app locally use `npm run dev` and navigate to the port vite runs the app on in your browser.
   - Check the console for the `PORT` and copy/paste `localhost:PORT` into your web browser.
+  - If the backend server is down, you can install it and run it locally as well: https://github.com/frien-emies/chess-game-be and change the indicated lines in ChessSocket.js to point the application to the new endpoint.
 
-**3. To run Cypress testing**
+
+**2. To run Cypress testing**
 - in the console type `npm run cypress`
 - for issues: [Follow these instructions to install Cypress.](https://on.cypress.io/guides/installing-and-running#section-installing)
 
